@@ -1,0 +1,366 @@
+@font-face {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/fraunces-v22-latin-regular.woff2") format("woff2"),
+    url("../fonts/fraunces-v22-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    src: url("../fonts/fraunces-v22-latin-900.woff2") format("woff2"),
+    url("../fonts/fraunces-v22-latin-900.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/barlow-v12-latin-regular.woff2") format("woff2"),
+    url("../fonts/barlow-v12-latin-regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/barlow-v12-latin-700.woff2") format("woff2"),
+    url("../fonts/barlow-v12-latin-700.woff") format("woff");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces', 'Barlow', serif;
+    font-size: 16px;
+}
+
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 44px;
+    margin-bottom: 45px;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header__container {
+    
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__top-link {
+    
+}
+
+.header__top-img {
+    width: 235px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.nav__header-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav__header-item {
+    
+}
+
+.nav__header-link {
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    margin-right: 33px;
+    transition: 0.3s ease;
+}
+.nav__header-link:hover {
+    color: cornflowerblue;
+}
+
+/* Main */
+
+.hero {
+    margin-bottom: 168px;
+}
+
+.hero__container {
+    background-image: url(./../images/about-coffee.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1280px;
+    height: 450px;
+}
+
+.hero__wrapper {
+    padding-top: 137px;
+    padding-left: 85px;
+}
+
+.hero__heading {
+    margin: 0;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+
+.hero__text {
+    margin: 0;
+    width: 445px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+.our__communicate {
+    padding-left: 85px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 244px;
+}
+
+.our__communicate-container {
+    background-image: url(./../images/make-coffee.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 445px;
+    height: 520px;
+}
+
+.our__communicate-wrapper {
+    
+}
+
+.our__communicate-left {
+    margin-left: 125px;
+}
+
+.our__communicate__left-heading {
+    margin: 0;
+    width: 357px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+    margin-bottom: 32px;
+}
+
+.our__communicate__left-text {
+    width: 540px;
+    margin: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.uncompromising__quality-container {
+    background-image: url(./../images/quality-coffee.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1280px;
+    height: 474px;
+}
+
+.uncompromising__quality-wrapper {
+    padding-top: 88px;
+    padding-left: 85px;
+}
+
+.uncompromising__quality-container {
+    display: flex;
+    margin-bottom: 168px;
+}
+
+.uncompromising__quality-heading {
+    margin: 0;
+    width: 517px;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+}
+
+.uncompromising__quality-text {
+    margin: 0;
+    width: 540px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.uncompromising__quality-right {
+    background-image: url(./../images/Bitmap.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 445px;
+    height: 474px;
+    position: relative;
+    top: -86px;
+    border-radius: 10px;
+    margin-left: 125px;
+}
+
+.our__headquarters {
+    
+}
+
+.our__headquarters-container {
+    width: 1151px;
+}
+
+.our__headquarters-wrapper {
+    
+}
+
+.our__headquarters__wrapper-heading {
+    margin: 0;
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 72px;
+}
+
+/* Footer */
+
+.footer {   
+    margin-bottom: 88px;
+}
+
+.footer__container {
+    background: #2C343E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 47px;
+}
+
+.footer__left {
+    display: flex;
+    align-items: center;
+}
+
+.footer__left-link {
+    
+}
+
+.footer__left-img {
+    width: 236px;
+    height: 26px;
+    object-fit: contain;
+}
+
+.nav {
+    
+}
+
+.footer__left-list {
+    margin-left: 103px;
+    display: flex;
+}
+
+.footer__left-item {
+    
+}
+
+.footer__left__list-link {
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    margin-right: 33px;
+    transition: 0.3s ease;
+}
+
+.footer__left__list-link:hover {
+    color: #1da075;
+}
+
+/* Footer__right */
+
+.footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav__right {
+
+}
+
+.footer__right-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer__right-item {
+    
+}
+
+.footer__right-link {
+    margin-right: 24px;
+}
+
+.footer-right-img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
