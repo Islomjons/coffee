@@ -1,0 +1,86 @@
+.pick {
+    
+    &__coffee {
+        margin-bottom: 159px;
+    }
+
+    &__coffee-container {
+        background-image: url(./../images/cofe-map.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 1280px;
+        height: 653px;
+    }
+
+    &__coffee-list {
+        display: flex;
+        padding-top: 91px;
+    }
+
+    &__coffee-item {
+        position: relative;
+        padding-top: 98px;
+        padding-left: 85px;
+        position: relative;
+        width: 380px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            display: inline-block;
+            width: 31px;
+            height: 31px;
+            border: 2px solid #0E8784;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 15.5px;
+            display: inline-block;
+            width: 100%;
+            height: 2px;
+            background-color: #FDD6BA;
+        }
+
+        &:last-child::after {
+            display: none;
+        }
+    }
+
+    &__coffee-number {
+        font-family: Fraunces 9pt;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 82px;
+        line-height: 72px;
+        color: #FDD6BA;
+        width: 485px;
+        margin-bottom: 38px;
+    }
+
+    &__coffee-heading {
+        width: 255px;
+        font-family: Fraunces 9pt;
+        font-style: Black;
+        font-size: 32px;
+        line-height: 36px;
+        color: #FEFCF7;
+        margin-bottom: 42px;
+    }
+
+    &__coffee-text {
+        width: 285px;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+    }
+}

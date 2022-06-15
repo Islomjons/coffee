@@ -1,0 +1,150 @@
+.main {
+}
+
+.hero {
+    margin-bottom: 168px;
+    
+    &__plan-container {
+        background-image: url(./../images/plan.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        padding: 134px 85px;
+    }
+    
+    &__wrapper {
+        max-width: 493px;
+        width: 100%;
+    }
+    
+    &__heading {
+        font-family: Fraunces 9pt;
+        font-style: Black;
+        font-size: 72px;
+        line-height: 72px;
+        margin-bottom: 32px;
+    }
+    
+    &__text {
+        max-width: 445px;
+        width: 100%;
+        font-family: Barlow;
+        font-size: Regular;
+        font-size: 16px;
+        line-height: 26px;
+        line-height: 135%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hero {
+        
+        &__plan-container {
+            background-image: url(./../images/cr.png);
+            padding: 127px 58px;
+        }
+        
+        &__wrapper {
+            max-width: 493px;
+            width: 100%;
+        }
+        
+        &__heading {
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            max-width: 398px;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .hero {
+        
+        &__plan-container {
+            padding: 127px 58px;
+        }
+        
+        &__wrapper {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        &__heading {
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            max-width: 398px;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .hero {
+        
+        &__plan-container {
+            padding: 101px 24px;
+        }
+        
+        &__wrapper {
+            max-width: 493px;
+            width: 100%;
+        }
+        
+        &__heading {
+            font-size: 40px;
+            line-height: 40px;
+            margin-bottom: 24px;
+        }
+        
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            max-width: 398px;
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    .hero {
+        
+        &__plan-container {
+            background-image: url(./../images/cp.jpg);
+            padding: 101px 24px;
+        }
+        
+        &__wrapper {
+            max-width: 279px;
+            width: 100%;
+        }
+        
+        &__heading {
+            font-size: 35px;
+            line-height: 30px;
+            margin-bottom: 22px;
+        }
+        
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+            max-width: 279px;
+            width: 100%;
+        }
+    }
+}
