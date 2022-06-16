@@ -212,13 +212,7 @@ header {
     opacity: 0.8;
 }
 
-.uncompromising__quality-container {
-    background-image: url(./../images/quality-coffee.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 1280px;
-    height: 474px;
-}
+
 
 .uncompromising__quality-wrapper {
     padding-top: 88px;
@@ -226,6 +220,7 @@ header {
 }
 
 .uncompromising__quality-container {
+    background-color: #2C343E;
     display: flex;
     margin-bottom: 168px;
 }
@@ -256,7 +251,7 @@ header {
 }
 
 .uncompromising__quality-right {
-    background-image: url(./../images/Bitmap.png);
+    background-image: url(./../images/cooofee.png);
     background-repeat: no-repeat;
     background-position: right;
     width: 445px;
@@ -266,6 +261,20 @@ header {
     border-radius: 10px;
     margin-left: 125px;
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+    
+    .uncompromising__quality-right {
+        background-image: url(./../images/cooofee@2x.png);
+    }
+    
+} 
 
 /* our__headquarters */
 
@@ -476,7 +485,7 @@ header {
     .hero {
         padding-bottom: 144px;
     }
-
+    
     .hero__container {
         padding: 118px 58px;
     }
@@ -500,11 +509,11 @@ header {
 }
 
 @media only screen and (max-width: 575px) {
-
+    
     .hero {
         padding-bottom: 120px;
     }
-
+    
     .hero__container {
         padding: 118px 58px;
     }
@@ -613,6 +622,7 @@ header {
         background-position: left;
         width: 281px;
         height: 470px;
+        margin-bottom: 48px;
     }
     
     .our__communicate-wrapper {
@@ -642,5 +652,55 @@ header {
         font-size: 15px;
         line-height: 25px;
     }
+}
+
+/* uncompromising__quality  */
+
+@media only screen and (max-width: 1200px) {
+    .uncompromising__quality-wrapper {
+        padding: 208px 74px 83px 74px;
+        
+    }
+    
+    .uncompromising__quality-container {
+        background-color: #2C343E;
+        width: 688px;
+        height: 488px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .uncompromising__quality-heading {
+        margin: 0;
+        width: 517px;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    
+    .uncompromising__quality-text {
+        margin: 0;
+        width: 540px;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .uncompromising__quality-right {
+        background-image: url(./../images/tablet-cofe.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 573px;
+        height: 320px;
+        position: absolute;
+        top: -200px;
+        left: 0;
+        border-radius: 10px;
+        margin-left: 70px;
+        
+    } 
 }
 
