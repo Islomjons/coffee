@@ -664,6 +664,7 @@ only screen and (                min-resolution: 2dppx) {
     
     .uncompromising__quality-container {
         background-color: #2C343E;
+        border-radius: 10px;
         width: 688px;
         height: 488px;
         display: flex;
@@ -677,7 +678,7 @@ only screen and (                min-resolution: 2dppx) {
         font-size: 32px;
         line-height: 48px;
         text-align: center;
-        margin-bottom: 32px;
+        margin-bottom: 24px;
     }
     
     .uncompromising__quality-text {
@@ -699,8 +700,172 @@ only screen and (                min-resolution: 2dppx) {
         top: -200px;
         left: 0;
         border-radius: 10px;
-        margin-left: 70px;
-        
+        margin-left: 57px;
     } 
 }
 
+@media only screen and (max-width: 600px) {
+    .uncompromising__quality-wrapper {
+        padding: 142px 24px 83px 24px;
+        
+    }
+    
+    .uncompromising__quality-container {
+        background-color: #2C343E;
+        width: 327px;
+        height: 587px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .uncompromising__quality-heading {
+        margin: 0;
+        width: 279px;
+        font-size: 28px;
+        line-height: 28px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    
+    .uncompromising__quality-text {
+        margin: 0;
+        width: 279px;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .uncompromising__quality-right {
+        background-image: url(./../images/tablet-cofe.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 279px;
+        height: 156px;
+        position: absolute;
+        top: -78px;
+        left: 0;
+        border-radius: 10px;
+        margin-left: 24px;
+    } 
+}
+
+/* our__headquarters */
+
+@media only screen and (max-width: 1200px) {
+    .our__headquarters {
+        
+    }
+    
+    .our__headquarters-container {
+        width: 760px;
+    }
+    
+    .our__headquarters-wrapper {
+        
+    }
+    
+    .our__headquarters__wrapper-heading {
+        margin: 0;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+    }
+    
+    .our__headquarters-list {
+        display: flex;
+        margin-bottom: 168px;
+    }
+    
+    .our__headquarters-item {
+        margin-right: 10px;
+        width: 223px;
+    }
+    
+    .our__headquarters-img {
+        width: 48px;
+        height: 37px;
+        object-fit: contain;
+        margin-bottom: 45px;
+    }
+    
+    .our__headquarters-heading {
+        margin: 0;
+        width: 223px;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 21px;
+    }
+    
+    .our__headquarters-text {
+        margin: 0;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .our__headquarters {
+        
+    }
+    
+    .our__headquarters-container {
+        width: 350px;
+    }
+    
+    .our__headquarters-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .our__headquarters__wrapper-heading {
+        margin: 0;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+    }
+    
+    .our__headquarters-list {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 168px;
+    }
+    
+    .our__headquarters-item {
+        margin-right: 10px;
+        width: 223px;
+        margin-bottom: 47px;
+    }
+    
+    .our__headquarters-img {
+        width: 48px;
+        height: 37px;
+        object-fit: contain;
+        margin-bottom: 47px;
+    }
+    
+    .our__headquarters-heading {
+        margin: 0;
+        width: 223px;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 21px;
+    }
+    
+    .our__headquarters-text {
+        margin: 0;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+    
+    
+}
