@@ -1,29 +1,33 @@
 .pick {
     
+    
     &__coffee {
-        margin-bottom: 159px;
+        
     }
-
+    
     &__coffee-container {
-        background-image: url(./../images/cofe-map.png);
+        background-image: url("./../images/black-bg.png");
         background-repeat: no-repeat;
+        background-size: cover;
         background-position: center;
-        width: 1280px;
-        height: 653px;
+        border-radius: 10px;
+        max-width: 1280px;
+        width: 100%;
+        padding-bottom: 97px;
     }
-
+    
     &__coffee-list {
         display: flex;
         padding-top: 91px;
     }
-
+    
     &__coffee-item {
         position: relative;
         padding-top: 98px;
         padding-left: 85px;
         position: relative;
         width: 380px;
-
+        
         &::before {
             content: "";
             position: absolute;
@@ -35,7 +39,7 @@
             border-radius: 50%;
             z-index: 1;
         }
-
+        
         &::after {
             content: "";
             position: absolute;
@@ -45,23 +49,22 @@
             height: 2px;
             background-color: #FDD6BA;
         }
-
+        
         &:last-child::after {
             display: none;
         }
     }
-
+    
     &__coffee-number {
-        font-family: Fraunces 9pt;
+        font-family: Fraunces;
         font-style: normal;
         font-weight: 900;
         font-size: 82px;
         line-height: 72px;
         color: #FDD6BA;
-        width: 485px;
         margin-bottom: 38px;
     }
-
+    
     &__coffee-heading {
         width: 255px;
         font-family: Fraunces 9pt;
@@ -71,7 +74,7 @@
         color: #FEFCF7;
         margin-bottom: 42px;
     }
-
+    
     &__coffee-text {
         width: 285px;
         font-family: 'Barlow';
@@ -82,5 +85,216 @@
         color: #FEFCF7;
         mix-blend-mode: normal;
         opacity: 0.8;
+    }
+}
+
+@media only screen and (max-width: 1115px) {
+    .pick {
+        
+        
+        &__coffee {
+            
+        }
+        
+        &__coffee-container {
+            
+        }
+        
+        &__coffee-list {
+            display: flex;
+            padding-top: 70px;
+        }
+        
+        &__coffee-item {
+            max-width: 223px;
+            width: 100%;
+            padding-top: 97px;
+            padding-left: 40px;
+            padding-right: 40px;
+            position: relative;
+        }
+        
+        &__coffee-number {
+            font-size: 72px;
+            line-height: 72px;
+            margin-bottom: 42px;
+        }
+        
+        &__coffee-heading {
+            width: 223px;
+            font-size: 28px;
+            line-height: 32px;;
+            margin-bottom: 38px;
+        }
+        
+        &__coffee-text {
+            width: 223px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .pick {
+        
+        
+        &__coffee {
+           
+        }
+        
+        &__coffee-container {
+            padding-bottom: 79px;
+        }
+        
+        &__coffee-list {
+            width: 375px;
+            display: flex;
+            flex-direction: column;
+            padding-top: 80px;
+        }
+        
+        &__coffee-item {
+            max-width: 327px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            position: relative;
+            padding: 0 0 24px 24px;
+            
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                display: inline-block;
+                width: 31px;
+                height: 31px;
+                border: 2px solid #0E8784;
+                border-radius: 50%;
+                z-index: 1;
+                display: none;
+            }
+            
+            &::after {
+                content: "";
+                position: absolute;
+                top: 15.5px;
+                display: inline-block;
+                width: 100%;
+                height: 2px;
+                background-color: #FDD6BA;
+                display: none;
+            }
+            
+            &:last-child::after {
+                display: none;
+            }
+        }
+        
+        &__coffee-number {
+            margin-left: 50px;
+            font-size: 72px;
+            line-height: 72px;
+            margin-bottom: 24px;
+        }
+        
+        &__coffee-heading {
+            width: 327px;
+            font-size: 24px;
+            line-height: 32px;
+            color: #FEFCF7;
+            margin-bottom: 24px;
+        }
+        
+        &__coffee-text {
+            width: 327px;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .pick {
+        
+        
+        &__coffee {
+           
+        }
+        
+        &__coffee-container {
+            padding-bottom: 79px;
+        }
+        
+        &__coffee-list {
+            display: flex;
+            flex-direction: column;
+            padding-top: 80px;
+        }
+        
+        &__coffee-item {
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            position: relative;
+            padding: 0 0 24px 15px;
+            
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                display: inline-block;
+                width: 31px;
+                height: 31px;
+                border: 2px solid #0E8784;
+                border-radius: 50%;
+                z-index: 1;
+                display: none;
+            }
+            
+            &::after {
+                content: "";
+                position: absolute;
+                top: 15.5px;
+                display: inline-block;
+                width: 100%;
+                height: 2px;
+                background-color: #FDD6BA;
+                display: none;
+            }
+            
+            &:last-child::after {
+                display: none;
+            }
+        }
+        
+        &__coffee-number {
+            margin-left: 0;
+            font-size: 70px;
+            line-height: 70px;
+            margin-bottom: 24px;
+        }
+        
+        &__coffee-heading {
+            width: 300px;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FEFCF7;
+            margin-bottom: 24px;
+        }
+        
+        &__coffee-text {
+            width: 300px;
+            font-size: 15px;
+            line-height: 25px;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
     }
 }
