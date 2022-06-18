@@ -2,7 +2,7 @@
     
     
     &__coffee {
-        
+        margin-bottom: 168px;
     }
     
     &__coffee-container {
@@ -193,7 +193,6 @@
         }
         
         &__coffee-number {
-            margin-left: 50px;
             font-size: 72px;
             line-height: 72px;
             margin-bottom: 24px;
@@ -228,6 +227,8 @@
         
         &__coffee-container {
             padding-bottom: 79px;
+            margin-left: 24px;
+            margin-right: 24px;
         }
         
         &__coffee-list {
@@ -237,7 +238,7 @@
         }
         
         &__coffee-item {
-            width: 350px;
+            width: 300px;
             display: flex;
             flex-direction: column;
             text-align: center;
@@ -274,7 +275,6 @@
         }
         
         &__coffee-number {
-            margin-left: 0;
             font-size: 70px;
             line-height: 70px;
             margin-bottom: 24px;
